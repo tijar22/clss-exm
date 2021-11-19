@@ -1,0 +1,185 @@
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+
+.banner{
+	background-image: url(../display/bannerbg.jpg);
+	margin-bottom: 100px;
+	text-align: center;
+}
+
+
+header{
+    padding: 10px;
+    align-items: center;
+  
+}
+.log{
+    align-items: center;
+}
+.log img{
+    align-items: center;
+}
+.header-nav{
+    align-items: center;
+}
+.header-nav ul{
+    align-items: center;
+}
+.header-nav ul li{
+    padding: 0px 5px;
+    position: relative;
+}
+.header-nav ul li a{}
+.header-nav ul li a img{
+}
+.head-container{
+	  border-bottom: 1px solid #00000014;
+}
+.header-nav p{
+    position: absolute;
+    bottom: -20px;
+    left: 14px;
+}
+
+
+
+.banner-section{}
+.nav-section{}
+.banner-image{text-align: center;}
+.banner-image img{
+    transform: translateY(70px);
+    max-width: 100%;
+    /* margin: auto; */
+}
+.banner-section p{
+    padding-top: 10px;
+    text-align: center;
+}
+.banner-button{
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+    background: #2dcc70;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.banner-button:hover{
+	background-color: #198d4a;
+}
+.banner-button a{
+    background: #2dcc70;
+}
+
+
+
+
+
+
+
+.get-to-know{
+    padding: 40px 60px;
+    background-color: #f1f1f1;
+}
+.get-image{text-align: end;margin-bottom: 0px;}
+.get-image img{}
+.get-con{}
+.get-con h3{}
+.get-con p{}
+
+
+
+
+
+.blown-away{
+    padding: 30px 20px;
+    background-color: #463e3e;
+    color: white;
+}
+.blown-con{}
+.blown{}
+.blow-bt{text-align: center;}
+.blown-button{
+	background: #2dcc70;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.blown-button:hover{
+	background-color: #198d4a;
+}
+.blown-button a{
+    color: white;
+    text-decoration: none;
+}
+}
+
+
+
+.footer{}
+footer{
+    background: #f1f1f1;
+    padding: 20px 30px;
+}
+.foot-con{}
+small{}
+.foot-nav{}
+footer .small{}
+.small li{}
+.small li a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: black;
+}
+
+
+
+
+
+
+@media(max-width: 991px){
+	container:{
+		max-width: 700px;
+	}
+	.banner-image img{
+		max-width: 750px!important;
+	}
+
+	.blown {
+    font-size: 18px;
+    margin: 0;
+}
+.blown-button {
+ 
+    padding: 10px 15px;
+ 
+    font-size: 12px;
+}
+.get-con p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.navbar-toggler {
+    padding: 5px 10px;
+    font-size: 15px;}
+
+
+
+    .navbar-light .navbar-toggler {
+   
+    border-color: #19875466;
+}
+}    
